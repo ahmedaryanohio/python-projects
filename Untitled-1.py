@@ -20,3 +20,5 @@ while True:
     clock = pygame.time.get_ticks()/60
 
     pygame.display.flip()
+
+"∫ [0,∞] t^{z-1}e^{-t} dt"
