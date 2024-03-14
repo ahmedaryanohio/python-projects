@@ -15,6 +15,8 @@ while True:
     
     screen.fill((math.sin(clock)*127.5+127.5,255,255))
 
+    pygame.draw.polygon(screen, (0,0,0), ((200,300),(100,400),(300,300)))
+
     clock = pygame.time.get_ticks()/60
 
     pygame.display.flip()
