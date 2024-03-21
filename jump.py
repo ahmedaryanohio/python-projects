@@ -35,3 +35,5 @@ while True:
         player.velocity = player.maxvel
 
     pygame.display.update()
+
+    #sussy amogus
