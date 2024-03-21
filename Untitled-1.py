@@ -15,12 +15,10 @@ while True:
     
     screen.fill((math.sin(clock)*127.5+127.5,255,255))
 
-    pygame.draw.polygon(screen, (0,0,0), ((375 + math.sin(clock)*40,250 + math.cos(clock)*40),(375 + math.sin(clock + 120)*40,250, 250 + math.cos(clock + 120)*40,250),(375,250)))
+    pygame.draw.polygon(screen, (0,0,0), ((375 + math.sin(clock)*40,250 + math.cos(clock)*40),(375 + math.sin(clock + 120)*40, 250 + math.cos(clock + 120)*40,250),(375,250)))
 
     clock = pygame.time.get_ticks()/60
 
     pygame.display.flip()
 
 "∫ [0,∞] t^{z-1}e^{-t} dt"
-
-#ohio sussy crated
